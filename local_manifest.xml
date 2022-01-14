@@ -2,11 +2,11 @@
 <manifest>
 
  <remote name="temp" fetch="https://github.com/anant-goel" />
-  <project path="device/xiaomi/olive" name="android_device_xiaomi_olive" remote="anant-goel" revision="11.0" />
-  <project path="device/xiaomi/sdm439-common" name="device_xiaomi_sdm439-common" remote="anant-goel" revision="11.0" />
+  <project path="device/xiaomi/olive" name="android_device_xiaomi_olive" remote="anant-goel" revision="12.0" />
+  <project path="device/xiaomi/sdm439-common" name="device_xiaomi_sdm439-common" remote="anant-goel" revision="12.0" />
   <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="anant-goel" revision="a11/lineageos" />
   <project path="vendor/xiaomi/olive" name="proprietary_vendor_xiaomi_olive" remote="anant-goel" revision="lineage-18.1" />
-  <project path="vendor/xiaomi/sdm439-common" name="vendor_xiaomi_sdm439-common" remote="anant-goel" revision="11.0" />
+  <project path="vendor/xiaomi/sdm439-common" name="vendor_xiaomi_sdm439-common" remote="anant-goel" revision="12.0" />
  
  <!-- Q HALs -->
   <remove-project name="android_hardware_qcom_audio"/>
