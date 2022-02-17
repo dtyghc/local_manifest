@@ -7,28 +7,22 @@
           clone-depth="1" />
 
   <!-- Device stuff -->
-  <project path="device/xiaomi/olives" name="olives-trees/device_xiaomi_olives-12" remote="all" revision="komodo-12" />
-  <project path="device/xiaomi/sdm439-common" name="olives-trees/device_xiaomi_olives-common-12" remote="all" revision="12" /> 
-  <project path="kernel/xiaomi/sdm439" name="olives-trees/kernel_olives-12" remote="all" revision="12" />
-  <project path="vendor/xiaomi/olives" name="olives-trees/vendor_xiaomi_olives-12" remote="all" revision="12" />
-  <project path="vendor/xiaomi/sdm439-common" name="olives-trees/vendor_xiaomi_olives-common-12" remote="all" revision="12" />
+  <project path="device/xiaomi/olives" name="Krazy-Goel/device_xiaomi_olives" remote="all" revision="corvus-11" />
+  <project path="device/xiaomi/sdm439-common" name="Krazy-Goel/device_xiaomi_olives-common" remote="all" revision="corvus-11" /> 
+  <project path="kernel/xiaomi/sdm439" name="Krazy-Goel/kernel_olives" remote="all" revision="11" />
+  <project path="vendor/xiaomi/olives" name="Krazy-Goel/vendor_xiaomi_olives" remote="all" revision="11" />
+  <project path="vendor/xiaomi/sdm439-common" name="Krazy-Goel/vendor_xiaomi_olives-common" remote="all" revision="11" />
   
   <!-- Hals -->
-  <remove-project name="hardware_qcom_display" />
   <project path="hardware/qcom-caf/msm8996/display" name="olives-trees/hardware_qcom_display" remote="all" revision="8.6.2" />
-  <remove-project name="hardware_qcom_audio" />
   <project path="hardware/qcom-caf/msm8996/audio" name="olives-trees/hardware_qcom_audio" remote="all" revision="8.6.2" />
-  <remove-project name="android_hardware_qcom_media" />
   <project path="hardware/qcom-caf/msm8996/media" name="olives-trees/hardware_qcom_media" remote="all" revision="8.6.2" />
-  <remove-project name="android_hardware_qcom-caf_wlan" />
+  <remove-project name="hardware_qcom-caf_wlan" />
   <project path="hardware/qcom-caf/wlan" name="olives-trees/hardware_qcom-caf_wlan" remote="all" revision="S" />
-
-  <!-- Extras -->
-  <project path="packages/apps/FMRadio" name="hsx02/packages_apps_FMRadio" remote="all" revision="lineage-18.1" />
 
   <remove-project name="android_packages_resources_devicesettings"/>
   <project path="packages/resources/devicesettings" name="olives-trees/packages_resources_devicesettings" remote="all" revision="lineage-18.1"/>
-  <remove-project name="device_qcom_sepolicy-legacy-um" />
+
   <project path="device/qcom/sepolicy-legacy-um" name="PixelExperience/device_qcom_sepolicy-legacy-um" remote="all" revision="twelve" />
   
 </manifest>
