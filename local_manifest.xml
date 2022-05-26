@@ -1,28 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Remotes -->
-  <remote name="all"
-          fetch="https://github.com/"
-          clone-depth="1" />
-
-  <!-- Device stuff -->
-  <project path="device/xiaomi/olives" name="Krazy-Goel/device_xiaomi_olives" remote="all" revision="corvus-12" />
-  <project path="device/xiaomi/sdm439-common" name="Krazy-Goel/device_xiaomi_olives-common" remote="all" revision="corvus-12" /> 
-  <project path="kernel/xiaomi/sdm439" name="Krazy-Goel/kernel_olives" remote="all" revision="12" />
-  <project path="vendor/xiaomi/olives" name="Krazy-Goel/vendor_xiaomi_olives" remote="all" revision="12" />
-  <project path="vendor/xiaomi/sdm439-common" name="Krazy-Goel/vendor_xiaomi_olives-common" remote="all" revision="12" />
+  <remote name="dtc" fetch="https://github.com/dtyghc" />
   
-  <!-- Hals -->
-  <project path="hardware/qcom-caf/msm8996/display" name="olives-trees/hardware_qcom_display" remote="all" revision="8.6.2" />
-  <project path="hardware/qcom-caf/msm8996/audio" name="olives-trees/hardware_qcom_audio" remote="all" revision="8.6.2" />
-  <project path="hardware/qcom-caf/msm8996/media" name="olives-trees/hardware_qcom_media" remote="all" revision="8.6.2" />
-  <remove-project name="hardware_qcom-caf_wlan" />
-  <project path="hardware/qcom-caf/wlan" name="olives-trees/hardware_qcom-caf_wlan" remote="all" revision="S" />
-
-  <remove-project name="android_packages_resources_devicesettings"/>
-  <project path="packages/resources/devicesettings" name="olives-trees/packages_resources_devicesettings" remote="all" revision="lineage-18.1"/>
-
-  <project path="device/qcom/sepolicy-legacy-um" name="PixelExperience/device_qcom_sepolicy-legacy-um" remote="all" revision="twelve" />
-  
+  <project path="device/xiaomi/olives" name="device_xiaomi_olives" remote="dtc" revision="12.1" />
+  <project path="device/xiaomi/olives-common" name="device_xiaomi_olives-common" remote="dtc" revision="12.1" />
+  <project path="kernel/xiaomi/olives" name="kernel_xiaomi_olives" remote="dtc" revision="a12/main" />
+  <project path="vendor/xiaomi/olives" name="vendor_xxiaomi_olives" remote="dtc" revision="12" />
+  <project path="vendor/xiaomi/olives-common" name="vendor_xiaomi_olives-common" remote="dtc" revision="12.0" />
+ 
 </manifest>
