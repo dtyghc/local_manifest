@@ -2,11 +2,11 @@
 <manifest>
 
   <!-- Device stuff -->
-  <project path="device/xiaomi/olives" name="dtyghc/device_xiaomi_olives" remote="github" revision="dotos" />
-  <project path="device/xiaomi/olives-common" name="dtyghc/device_xiaomi_olives-common" remote="github" revision="dotos" /> 
-  <project path="kernel/xiaomi/olives" name="dtyghc/kernel_olives" remote="github" revision="a12/main" />
-  <project path="vendor/xiaomi/olives" name="dtyghc/vendor_xiaomi_olives" remote="github" revision="dotos" />
-  <project path="vendor/xiaomi/olives-common" name="dtyghc/vendor_xiaomi_olives-common" remote="github" revision="dotos" />
+  <project path="device/xiaomi/olives" name="dtyghc/device_xiaomi_olives.git" remote="github" revision="dotos" />
+  <project path="device/xiaomi/olives-common" name="dtyghc/device_xiaomi_olives-common.git" remote="github" revision="dotos" /> 
+  <project path="kernel/xiaomi/olives" name="dtyghc/kernel_olives.git" remote="github" revision="a12/main" />
+  <project path="vendor/xiaomi/olives" name="dtyghc/vendor_xiaomi_olives.git" remote="github" revision="dotos" />
+  <project path="vendor/xiaomi/olives-common" name="dtyghc/vendor_xiaomi_olives-common.git" remote="github" revision="dotos" />
  
   
 </manifest>
