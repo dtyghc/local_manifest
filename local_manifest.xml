@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+    <!-- Remotes -->
+  <remote name="dty" fetch="https://github.com/" />
   <!-- Device stuff -->
-  <project path="device/xiaomi/olives" name="dtyghc/device_xiaomi_olives.git" remote="github" revision="dotos" />
-  <project path="device/xiaomi/olives-common" name="dtyghc/device_xiaomi_olives-common.git" remote="github" revision="dotos" /> 
-  <project path="kernel/xiaomi/olives" name="dtyghc/kernel_olives.git" remote="github" revision="a12/main" />
-  <project path="vendor/xiaomi/olives" name="dtyghc/vendor_xiaomi_olives.git" remote="github" revision="dotos" />
-  <project path="vendor/xiaomi/olives-common" name="dtyghc/vendor_xiaomi_olives-common.git" remote="github" revision="dotos" />
+  <project path="device/xiaomi/olives" name="device_xiaomi_olives.git" remote="dty" revision="dotos" />
+  <project path="device/xiaomi/olives-common" name="device_xiaomi_olives-common.git" remote="dty" revision="dotos" /> 
+  <project path="kernel/xiaomi/olives" name="kernel_olives.git" remote="dty" revision="a12/main" />
+  <project path="vendor/xiaomi/olives" name="vendor_xiaomi_olives.git" remote="dty" revision="dotos" />
+  <project path="vendor/xiaomi/olives-common" name="vendor_xiaomi_olives-common.git" remote="dty" revision="dotos" />
+  
+  <!-- Addons -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi.git" remote="github" revision="lineage-19.1" />
  
   
 </manifest>
