@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Remotes -->
-  <remote name="dty" fetch="https://github.com/" />
+  <remote name="dty" fetch="https://github.com/dtyghc/" />
   <!-- Device stuff -->
   <project path="device/xiaomi/olives" name="device_xiaomi_olives.git" remote="dty" revision="dotos" />
   <project path="device/xiaomi/olives-common" name="device_xiaomi_olives-common.git" remote="dty" revision="dotos" /> 
