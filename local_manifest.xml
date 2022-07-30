@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- Remotes -->
+  <!-- Remotes -->
   <remote name="dty" fetch="https://github.com/" />
   <!-- Device stuff -->
   <project path="device/xiaomi/olives" name="device_xiaomi_olives.git" remote="dty" revision="dotos" />
