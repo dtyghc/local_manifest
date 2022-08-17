@@ -6,25 +6,11 @@
   <remote name="los" fetch="https://github.com/LineageOS" />
   
   <!-- Device stuff -->
-  <project path="device/xiaomi/olives" name="device_xiaomi_olives.git" remote="dty" revision="dotos" />
+  <project path="device/xiaomi/olives" name="device_xiaomi_olives.git" remote="dty" revision="xdroid-12" />
   <project path="device/xiaomi/olives-common" name="device_xiaomi_olives-common.git" remote="dty" revision="12" /> 
   <project path="kernel/xiaomi/olives" name="kernel_xiaomi_olives.git" remote="dty" revision="a12/main" />
   <project path="vendor/xiaomi/olives" name="vendor_xiaomi_olives.git" remote="dty" revision="12" />
   <project path="vendor/xiaomi/olives-common" name="vendor_xiaomi_olives-common.git" remote="dty" revision="12" />
   
-  <!-- Addons -->
-  <project path="hardware/xiaomi" name="DotOS/android_hardware_xiaomi.git" remote="github" revision="dot12.1" />
-    
-  <!-- Remove And Addition -->
-  <remove-project name="android_vendor_dot"/>
-  <project path="vendor/dot" name="android_vendor_dot.git" remote="dty" revision="dot12.1" />
-    
-  <!-- remove -->
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-	
-  <!-- Prebuilts -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="lineage-19.1" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="github" revision="lineage-19.1" clone-depth="1" />
-
+ 
 </manifest>
