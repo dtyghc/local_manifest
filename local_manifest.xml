@@ -6,7 +6,7 @@
   <remote name="los" fetch="https://github.com/LineageOS" />
   
   <!-- Device stuff -->
-  <project path="device/xiaomi/olives" name="device_xiaomi_olives.git" remote="dty" revision="dotos" />
+  <project path="device/xiaomi/olives" name="device_xiaomi_olives.git" remote="dty" revision="corvus" />
   <project path="device/xiaomi/olives-common" name="device_xiaomi_olives-common.git" remote="dty" revision="12" /> 
   <project path="kernel/xiaomi/olives" name="kernel_xiaomi_olives.git" remote="dty" revision="a12/main" />
   <project path="vendor/xiaomi/olives" name="vendor_xiaomi_olives.git" remote="dty" revision="12" />
@@ -14,10 +14,6 @@
   
   <!-- Addons -->
   <project path="hardware/xiaomi" name="DotOS/android_hardware_xiaomi.git" remote="github" revision="dot12.1" />
-    
-  <!-- Remove And Addition -->
-  <remove-project name="android_vendor_dot"/>
-  <project path="vendor/dot" name="android_vendor_dot.git" remote="dty" revision="dot12.1" />
     
   <!-- remove -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
