@@ -21,8 +21,8 @@
   <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="dty" revision="arrow-12.1" /> 
   
       <!-- remove -->
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
+  <remove-project name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" />
 	
     <!-- Prebuilts -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="los" revision="lineage-19.1" />
