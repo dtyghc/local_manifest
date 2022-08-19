@@ -4,6 +4,7 @@
   <!-- Remotes -->
   <remote name="dty" fetch="https://github.com/dtyghc" />
   <remote name="los" fetch="https://github.com/LineageOS" />
+  <remote name="aw"  fetch="https://github.com/ArrowOS" />
   
   <!-- Device stuff -->
   <project path="device/xiaomi/olives" name="device_xiaomi_olives.git" remote="dty" revision="corvus" />
@@ -23,8 +24,16 @@
       <!-- remove -->
   <remove-project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
   <remove-project name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" />
+  <remove-project name="android_hardware_qcom_display" />
 	
     <!-- Prebuilts -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="los" revision="lineage-19.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="los" revision="lineage-19.1" />
+  <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" revision="lineage-19.0-caf-msm8916" remote="los" />
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-19.0-caf-msm8996" remote="los" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="aw" revision="arrow-12.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sdm845" remote="los" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sm8150" remote="los" />
+  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sm8250" remote="los" />
+  <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sm8350" remote="los" />
 </manifest>
