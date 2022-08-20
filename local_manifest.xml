@@ -33,5 +33,5 @@
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sdm845" remote="los" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sm8150" remote="los" />
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sm8250" remote="los" />
-  <project path="system/vold" name="android_system_vold" revision="lineage-19.1" remote="los" />
+  <project path="system/vold" name="android_system_vold" revision="lineage-19.1" remote="dty" />
 </manifest>
