@@ -25,7 +25,7 @@
   <remove-project name="android_hardware_qcom_display" />
   <remove-project name="android_system_vold" />
   <remove-project name="vendor_corvus" />
-
+  <remove-project name="android_vendor_qcom_opensource_display" />
 	
     <!-- Prebuilts -->
   <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" revision="lineage-19.0-caf-msm8916" remote="los" />
@@ -36,4 +36,5 @@
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sm8250" remote="los" />
   <project path="system/vold" name="android_system_vold" revision="lineage-19.1" remote="dty" />
   <project path="vendor/corvus" name="vendor_corvus" remote="dty" revision="12-test" />
+  <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="dty" revision="lineage-19.1" />
 </manifest>
