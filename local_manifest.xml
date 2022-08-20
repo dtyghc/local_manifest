@@ -19,4 +19,8 @@
   <remove-project name="android_hardware_qcom-caf_sm8350_display" />
   <remove-project name="android_system_vold" />
   <project path="system/vold" name="android_system_vold" revision="lineage-19.1" remote="dty" />
+  <remove-project name="android_vendor_qcom_opensource_display" />
+  <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="dty" revision="dot12" />
+  <project path="android_vendor_qcom_opensource_commonsys_display" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_commonsys_display" remote="dty" revision="dot12"/>
 </manifest>
