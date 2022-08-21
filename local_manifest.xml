@@ -6,7 +6,7 @@
   <remote name="los" fetch="https://github.com/LineageOS" />
   
   <!-- Device stuff -->
-  <project path="device/xiaomi/olives" name="device_xiaomi_olives.git" remote="dty" revision="xdroid-12" />
+  <project path="device/xiaomi/olives" name="device_xiaomi_olives.git" remote="dty" revision="xdroid-13" />
   <project path="device/xiaomi/olives-common" name="device_xiaomi_olives-common.git" remote="dty" revision="12" /> 
   <project path="kernel/xiaomi/olives" name="kernel_xiaomi_olives.git" remote="dty" revision="a12/main" />
   <project path="vendor/xiaomi/olives" name="vendor_xiaomi_olives.git" remote="dty" revision="12" />
