@@ -10,6 +10,8 @@
   <remove-project name="xd_frameworks_base" />
   <remove-project name="xd_frameworks_av" />
   <remove-project name="platform/hardware/qcom/msm8996" />
+  <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
+  <remove-project name="android_vendor_qcom_opensource_display-commonsys" />
  
   <!-- Device stuff -->
   <project path="device/xiaomi/olives" name="device_xiaomi_olives.git" remote="dty" revision="xdroid-12" />
@@ -22,5 +24,7 @@
   <project path="frameworks/av" name="xd_frameworks_av" remote="xd" revision="twelve" />
   <project path="frameworks/base" name="xd_frameworks_base" remote="xd" revision="twelve" />
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-msm8996" remote="los" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="dty" revision="arrow-12.1" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="dty" revision="arrow-12.1" /> 
 
 </manifest>
