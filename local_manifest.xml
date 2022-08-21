@@ -21,6 +21,6 @@
   <project path="frameworks/native" name="xd_frameworks_native" remote="dty" revision="twelve" />
   <project path="frameworks/av" name="xd_frameworks_av" remote="xd" revision="twelve" />
   <project path="frameworks/base" name="xd_frameworks_base" remote="xd" revision="twelve" />
-  
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-msm8996" remote="los" />
 
 </manifest>
