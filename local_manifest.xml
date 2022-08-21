@@ -9,6 +9,7 @@
   <remove-project name="xd_frameworks_native" />
   <remove-project name="xd_frameworks_base" />
   <remove-project name="xd_frameworks_av" />
+  <remove-project name="platform/hardware/qcom/msm8996" />
  
   <!-- Device stuff -->
   <project path="device/xiaomi/olives" name="device_xiaomi_olives.git" remote="dty" revision="xdroid-12" />
