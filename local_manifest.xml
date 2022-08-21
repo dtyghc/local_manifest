@@ -4,9 +4,7 @@
   <!-- Remotes -->
   <remote name="dty" fetch="https://github.com/dtyghc" />
   <remote name="los" fetch="https://github.com/LineageOS" />
-  
-  
-  <!-- remove -->
+ 
   <remove-project name="xd_official-maintainer" />
   <remove-project name="xd_frameworks_native" />
  
