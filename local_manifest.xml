@@ -12,8 +12,9 @@
   <project path="vendor/xiaomi/olives" name="vendor_xiaomi_olives.git" remote="dty" revision="12" />
   <project path="vendor/xiaomi/olives-common" name="vendor_xiaomi_olives-common.git" remote="dty" revision="12" />
   <project path="official-maintainer" name="xd_official-maintainer" remote="dty" revision="twelve" />
+  <project path="frameworks/native" name="xd_frameworks_native" remote="dty" revision="twelve" />
   
   <remove-project name="xd_official-maintainer" />
-  
+  <remove-project name="xd_frameworks_native" />
  
 </manifest>
