@@ -5,6 +5,11 @@
   <remote name="dty" fetch="https://github.com/dtyghc" />
   <remote name="los" fetch="https://github.com/LineageOS" />
   
+  
+  <!----remove---->
+  <remove-project name="xd_official-maintainer" />
+  <remove-project name="xd_frameworks_native" />
+ 
   <!-- Device stuff -->
   <project path="device/xiaomi/olives" name="device_xiaomi_olives.git" remote="dty" revision="xdroid-12" />
   <project path="device/xiaomi/olives-common" name="device_xiaomi_olives-common.git" remote="dty" revision="12" /> 
@@ -14,7 +19,5 @@
   <project path="official-maintainer" name="xd_official-maintainer" remote="dty" revision="twelve" />
   <project path="frameworks/native" name="xd_frameworks_native" remote="dty" revision="twelve" />
   
-  <remove-project name="xd_official-maintainer" />
-  <remove-project name="xd_frameworks_native" />
- 
+
 </manifest>
