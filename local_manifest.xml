@@ -7,36 +7,15 @@
   <remote name="aw"  fetch="https://github.com/ArrowOS" />
   
   <!-- Device stuff -->
-  <project path="device/xiaomi/olives" name="device_xiaomi_olives.git" remote="dty" revision="corvus" />
+  <project path="device/xiaomi/olives" name="device_xiaomi_olives.git" remote="dty" revision="evo-x" />
   <project path="device/xiaomi/olives-common" name="device_xiaomi_olives-common.git" remote="dty" revision="12" /> 
   <project path="kernel/xiaomi/olives" name="kernel_xiaomi_olives.git" remote="dty" revision="a12/main" />
   <project path="vendor/xiaomi/olives" name="vendor_xiaomi_olives.git" remote="dty" revision="12" />
   <project path="vendor/xiaomi/olives-common" name="vendor_xiaomi_olives-common.git" remote="dty" revision="12" />
-  
-  <!-- Addons -->
-  <project path="hardware/xiaomi" name="CorvusRom-Devices/hardware_xiaomi.git" remote="github" revision="12" />
   
   <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="dty" revision="arrow-12.1" />
   <remove-project name="android_vendor_qcom_opensource_display-commonsys" />
   <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="dty" revision="arrow-12.1" /> 
   
-      <!-- remove -->
-  <remove-project name="android_hardware_qcom_display" />
-  <remove-project name="android_system_vold" />
-  <remove-project name="vendor_corvus" />
-  <remove-project name="android_vendor_qcom_opensource_display" />
-  <remove-project name="android_frameworks_base" />
-	
-    <!-- Prebuilts -->
-  <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" revision="lineage-19.0-caf-msm8916" remote="los" />
-  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-19.0-caf-msm8996" remote="los" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="aw" revision="arrow-12.1-caf-msm8998" />
-  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sdm845" remote="los" />
-  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sm8150" remote="los" />
-  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sm8250" remote="los" />
-  <project path="system/vold" name="android_system_vold" revision="12-test" remote="dty" />
-  <project path="vendor/corvus" name="vendor_corvus" remote="dty" revision="12-test" />
-  <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display-1" remote="dty" revision="lineage-19.1" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="dty" revision="12L" />
 </manifest>
