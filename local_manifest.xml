@@ -7,11 +7,11 @@
   <remote name="aw"  fetch="https://github.com/ArrowOS" />
   
   <!-- Device stuff -->
-  <project path="device/xiaomi/olives" name="device_xiaomi_olives.git" remote="dty" revision="corvus" />
-  <project path="device/xiaomi/olives-common" name="device_xiaomi_olives-common.git" remote="dty" revision="12-s" /> 
-  <project path="kernel/xiaomi/olives" name="kernel_xiaomi_olives.git" remote="dty" revision="a12/main" />
-  <project path="vendor/xiaomi/olives" name="vendor_xiaomi_olives.git" remote="dty" revision="12-s" />
-  <project path="vendor/xiaomi/olives-common" name="vendor_xiaomi_olives-common.git" remote="dty" revision="12-s" />
+  <project path="device/xiaomi/Mi439" name="device_xiaomi_olives.git" remote="dty" revision="corvus" />
+  <project path="device/xiaomi/mithorium-common" name="device_xiaomi_olives-common.git" remote="dty" revision="12-s" /> 
+  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_olives.git" remote="dty" revision="a12/main" />
+  <project path="vendor/xiaomi/Mi439" name="vendor_xiaomi_olives.git" remote="dty" revision="12-s" />
+  <project path="vendor/xiaomi/mithorium-common" name="vendor_xiaomi_olives-common.git" remote="dty" revision="12-s" />
   
   <!-- Addons -->
   <project path="hardware/xiaomi" name="CorvusRom-Devices/hardware_xiaomi.git" remote="github" revision="12" />
