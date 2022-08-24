@@ -39,4 +39,5 @@
   <project path="vendor/corvus" name="vendor_corvus" remote="dty" revision="12-test" />
   <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display-1" remote="dty" revision="lineage-19.1" />
   <project path="frameworks/base" name="android_frameworks_base" remote="dty" revision="12L" />
+  <project path="vendor/miuicamera" name="vendor_miuicamera" remote="me" revision="12.1" />
 </manifest>
