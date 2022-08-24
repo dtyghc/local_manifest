@@ -5,6 +5,7 @@
   <remote name="dty" fetch="https://github.com/dtyghc" />
   <remote name="los" fetch="https://github.com/LineageOS" />
   <remote name="aw"  fetch="https://github.com/ArrowOS" />
+  <remote name="me"   fetch="https://github.com/karann2354" />
   
   <!-- Device stuff -->
   <project path="device/xiaomi/Mi439" name="device_xiaomi_olives.git" remote="dty" revision="corvus" />
