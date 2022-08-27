@@ -8,8 +8,8 @@
   <remote name="me"   fetch="https://github.com/karann2354" />
   
   <!-- Device stuff -->
-  <project path="device/xiaomi/Mi439" name="device_xiaomi_olives.git" remote="dty" revision="corvus" />
-  <project path="device/xiaomi/mithorium-common" name="device_xiaomi_olives-common.git" remote="dty" revision="12-s" /> 
+  <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439.git" remote="dty" revision="corvus" />
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common.git" remote="dty" revision="corvus" /> 
   <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_olives.git" remote="dty" revision="a12/main" />
   <project path="vendor/xiaomi/Mi439" name="vendor_xiaomi_olives.git" remote="dty" revision="12-s" />
   <project path="vendor/xiaomi/mithorium-common" name="vendor_xiaomi_olives-common.git" remote="dty" revision="12-s" />
