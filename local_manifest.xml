@@ -7,14 +7,15 @@
   <remote name="aw"   fetch="https://github.com/ArrowOS" />
   <remote name="me"   fetch="https://github.com/karann2354" />
   <remote name="abhi" fetch="https://github.com/dextyy5" />
-  
+  <remote name="dd" fetch="https://github.com/dextyy5" />
+	
   <!-- Device stuff -->
-  <project path="device/xiaomi/Mi439" name="device_xiaomi_olives.git" remote="dty" revision="evo-x" />
-  <project path="device/xiaomi/mithorium-common" name="device_xiaomi_olives-common.git" remote="dty" revision="12-s" /> 
-  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_olives.git" remote="dty" revision="a12/main" />
-  <project path="vendor/xiaomi/Mi439" name="vendor_xiaomi_olives.git" remote="dty" revision="12-s" />
-  <project path="vendor/xiaomi/mithorium-common" name="vendor_xiaomi_olives-common.git" remote="dty" revision="12-s" />
-  
+  <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439.git" remote="dty" revision="evox" />
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common.git" remote="dty" revision="corvus" /> 
+  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439.git" remote="me" revision="12.1" />
+  <project path="vendor/xiaomi/Mi439"  name="vendor_xiaomi_Mi439.git" remote="me" revision="12.1"  /> 
+  <project path="vendor/xiaomi/mithorium-common"  name="vendor_xiaomi_mithorium-common.git" remote="me" revision="12.1" />
+    
   <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="dty" revision="arrow-12.1" />
   <remove-project name="android_vendor_qcom_opensource_display" />
@@ -33,14 +34,6 @@
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sm8150" remote="los" />
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sm8250" remote="los" />
 
-
-<!-- Patches -->
-
-  <remove-project name="vendor_evolution" />
-	<remove-project name="system_core" />
-
-	<project path="vendor/evolution" name="vendor_evolution" remote="abhi" revision="snow" />
-  <project path="system/core" name="system_core-1" remote="abhi" revision="patch-1" />
 	
 <!-- Extras -->
 
