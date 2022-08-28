@@ -12,9 +12,10 @@
   <!-- Device stuff -->
   <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439.git" remote="dty" revision="corvus" />
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common.git" remote="dty" revision="corvus" /> 
-  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_olives.git" remote="dty" revision="a12/main" />
-  <project path="vendor/xiaomi/Mi439" name="vendor_xiaomi_olives.git" remote="dty" revision="12-s" />
-  <project path="vendor/xiaomi/mithorium-common" name="vendor_xiaomi_olives-common.git" remote="dty" revision="12-s" />
+  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439.git" remote="me" revision="12.1" />
+  <project path="vendor/xiaomi/Mi439"  name="vendor_xiaomi_Mi439.git" remote="me" revision="12.1"  /> 
+  <project path="vendor/xiaomi/mithorium-common"  name="vendor_xiaomi_mithorium-common.git" remote="me" revision="12.1" />
+    
   
   <!-- Addons -->
   <project path="hardware/xiaomi" name="CorvusRom-Devices/hardware_xiaomi.git" remote="github" revision="12" />
