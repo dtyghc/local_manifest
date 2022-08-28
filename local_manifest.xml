@@ -6,6 +6,8 @@
   <remote name="los" fetch="https://github.com/LineageOS" />
   <remote name="aw"  fetch="https://github.com/ArrowOS" />
   <remote name="me"   fetch="https://github.com/karann2354" />
+  <remote name="dd" fetch="https://github.com/dextyy5" />
+	
   
   <!-- Device stuff -->
   <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439.git" remote="dty" revision="corvus" />
@@ -25,7 +27,6 @@
       <!-- remove -->
   <remove-project name="android_hardware_qcom_display" />
   <remove-project name="android_system_vold" />
-  <remove-project name="vendor_corvus" />
   <remove-project name="android_vendor_qcom_opensource_display" />
   <remove-project name="android_frameworks_base" />
 	
@@ -37,8 +38,20 @@
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sm8150" remote="los" />
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sm8250" remote="los" />
   <project path="system/vold" name="android_system_vold" revision="12-test" remote="dty" />
-  <project path="vendor/corvus" name="vendor_corvus" remote="dty" revision="12-test" />
   <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display-1" remote="dty" revision="lineage-19.1" />
   <project path="frameworks/base" name="android_frameworks_base" remote="dty" revision="12L" />
   <project path="vendor/miuicamera" name="vendor_miuicamera" remote="me" revision="12.1" />
+	
+	<!-- Patches -->
+
+  <remove-project name="vendor_corvus" />
+  <remove-project name="android_system_core" />
+
+  <project path="vendor/corvus" name="vendor_corvus" remote="dd" revision="12-test" />
+  <project path="system/core" name="android_system_core" remote="dd" revision="12-test" />
+	
+<!-- Extras -->
+
+	<remove-project name="android_packages_apps_FMRadio" />
+	<project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="me" revision="lineage-18.1" />
 </manifest>
