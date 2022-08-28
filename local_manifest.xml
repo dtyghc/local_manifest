@@ -47,7 +47,7 @@
   <remove-project name="vendor_corvus" />
   <remove-project name="android_system_core" />
 
-  <project path="vendor/corvus" name="vendor_corvus" remote="dd" revision="12-test" />
+  <project path="vendor/corvus" name="vendor_corvus" remote="dty" revision="12-test" />
   <project path="system/core" name="android_system_core" remote="dd" revision="12-test" />
 	
 <!-- Extras -->
