@@ -32,7 +32,7 @@
   <remove-project name="android_frameworks_base" />
 	
     <!-- Prebuilts -->
-  <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-msm8916" remote="los" />
+  <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" revision="lineage-19.0-caf-msm8916" remote="los" />
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-msm8996" remote="dty" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="aw" revision="arrow-12.1-caf-msm8998" />
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sdm845" remote="los" />
