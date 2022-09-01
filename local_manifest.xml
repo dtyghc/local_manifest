@@ -20,10 +20,7 @@
   <!-- Addons -->
   <project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="los" revision="lineage-19.1" />
   
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="dty" revision="arrow-12.1" />
-  <remove-project name="android_vendor_qcom_opensource_display-commonsys" />
-  <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="dty" revision="arrow-12.1" /> 
-  
+
       <!-- remove -->
   <remove-project name="android_hardware_qcom_display" />
   <remove-project name="android_system_vold" />
