@@ -26,7 +26,11 @@
 
   <remove-project name="android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_hardware_qcom_display" />
+  <remove-project name="system_core" />
+  <remove-project name="vendor_evolution" />
   
+  <project path="system/core" name="system_core" revision="snow" remote="dty" />
+  <project path="vendor/evolution" name="vendor_evolution" revision="snow" remote="dty" />
   <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" revision="lineage-19.0-caf-msm8916" remote="los" />
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-19.0-caf-msm8996" remote="los" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="aw" revision="arrow-12.1-caf-msm8998" />
