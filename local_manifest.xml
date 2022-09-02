@@ -17,11 +17,11 @@
   <project path="vendor/xiaomi/mithorium-common"  name="vendor_xiaomi_mithorium-common.git" remote="me" revision="12.1" />
     
   <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="dty" revision="arrow-12.1" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="dty" revision="arrow-13" />
   <remove-project name="android_vendor_qcom_opensource_display" />
-  <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display-1" remote="dty" revision="lineage-19.1" />
+  <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display-1" remote="dty" revision="lineage-20.0" />
   <remove-project name="device_qcom_sepolicy-legacy-um" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="dty" revision="snow" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="dty" revision="tiramisu" />
   <!-- HALs -->
 
   <remove-project name="android_hardware_qcom_display" />
@@ -29,11 +29,11 @@
   <remove-project name="system_core" />
   <remove-project name="vendor_evolution" />
   
-  <project path="system/core" name="system_core" revision="snow" remote="dty" />
-  <project path="vendor/evolution" name="vendor_evolution" revision="snow" remote="dty" />
+  <project path="system/core" name="system_core" revision="tiramisu" remote="dty" />
+  <project path="vendor/evolution" name="vendor_evolution" revision="tiramisu" remote="dty" />
   <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" revision="lineage-19.0-caf-msm8916" remote="los" />
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-19.0-caf-msm8996" remote="los" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="aw" revision="arrow-12.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="aw" revision="arrow-13.0-caf-msm8998" />
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sdm845" remote="los" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sm8150" remote="los" />
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sm8250" remote="los" />
