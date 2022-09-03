@@ -48,8 +48,6 @@
    <project path="system/core" name="android_system_core" remote="dty" revision="12" />
 	
 <!-- Extras -->
-
-	<remove-project name="android_packages_apps_FMRadio" />
 	<project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="me" revision="lineage-18.1" />
 	
 	<!-- HALs -->
