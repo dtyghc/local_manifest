@@ -28,7 +28,9 @@
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="system_core" />
   <remove-project name="vendor_evolution" />
+  <remove-project name="android_vendor_qcom_opensource_wfd-commonsys" />
   
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" revision="lineage-19.1" remote="dty" /> 
   <project path="system/core" name="system_core" revision="snow" remote="dty" />
   <project path="vendor/evolution" name="vendor_evolution" revision="snow" remote="dty" />
   <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" revision="lineage-19.0-caf-msm8916" remote="los" />
