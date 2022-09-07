@@ -13,6 +13,7 @@
   <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
   <remove-project name="android_vendor_qcom_opensource_display-commonsys" />
   <remove-project name="xd_device_qcom_sepolicy-legacy-um" />
+  <remove-project name="xd_vendor_xdroid" />
  
    <!-- Device stuff -->
   <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439.git" remote="dty" revision="xdroid" />
@@ -23,6 +24,7 @@
   <project path="official-maintainer" name="xd_official-maintainer" remote="dty" revision="twelve" />
   <project path="frameworks/native" name="xd_frameworks_native" remote="dty" revision="twelve" />
   <project path="frameworks/av" name="xd_frameworks_av" remote="xd" revision="twelve" />
+  <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="dty" revision="twelve" /> 
   <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" remote="dty" revision="twelve" />
   <project path="frameworks/base" name="xd_frameworks_base" remote="xd" revision="twelve" />
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-msm8996" remote="los" />
