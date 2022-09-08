@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Remotes -->
-  <remote name="dty" fetch="https://github.com/dtyghc" />
-  <remote name="los" fetch="https://github.com/LineageOS" />
+ <!-- Remotes -->
+  <remote name="dty"  fetch="https://github.com/dtyghc" />
+  <remote name="los"  fetch="https://github.com/LineageOS" />
+  <remote name="aw"   fetch="https://github.com/ArrowOS" />
+  <remote name="me"   fetch="https://github.com/karann2354" />
+  <remote name="abhi" fetch="https://github.com/dextyy5" />
+  <remote name="dd" fetch="https://github.com/dextyy5" />
   
   <remove-project name="xd_official-maintainer" />
   <remove-project name="xd_frameworks_native" />
@@ -12,17 +16,19 @@
   <remove-project name="platform/hardware/qcom/msm8996" />
   <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
   <remove-project name="android_vendor_qcom_opensource_display-commonsys" />
+  <remove-project name="xd_vendor_xdroid" />
  
-  <!-- Device stuff -->
-  <project path="device/xiaomi/olives" name="device_xiaomi_olives.git" remote="dty" revision="xdroid" />
-  <project path="device/xiaomi/olives-common" name="device_xiaomi_olives-common.git" remote="dty" revision="12" /> 
-  <project path="kernel/xiaomi/olives" name="kernel_xiaomi_olives.git" remote="dty" revision="a12/main" />
-  <project path="vendor/xiaomi/olives" name="vendor_xiaomi_olives.git" remote="dty" revision="12" />
-  <project path="vendor/xiaomi/olives-common" name="vendor_xiaomi_olives-common.git" remote="dty" revision="12" />
+   <!-- Device stuff -->
+  <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439.git" remote="dty" revision="xdroid" />
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common.git" remote="dty" revision="corvus" /> 
+  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439.git" remote="me" revision="12.1" />
+  <project path="vendor/xiaomi/Mi439"  name="vendor_xiaomi_Mi439.git" remote="me" revision="12.1"  /> 
+  <project path="vendor/xiaomi/mithorium-common"  name="vendor_xiaomi_mithorium-common.git" remote="me" revision="12.1" />
   <project path="official-maintainer" name="xd_official-maintainer" remote="dty" revision="thirteen" />
   <project path="frameworks/native" name="xd_frameworks_native" remote="dty" revision="thirteen" />
   <project path="frameworks/av" name="xd_frameworks_av" remote="xd" revision="thirteen" />
   <project path="frameworks/base" name="xd_frameworks_base" remote="xd" revision="thirteen" />
+  <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="dty" revision="thirteen" />
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-msm8996" remote="dty" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="dty" revision="arrow-12.1" />
   <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="dty" revision="arrow-12.1" /> 
