@@ -14,7 +14,7 @@
   <remove-project name="android_vendor_qcom_opensource_display-commonsys" />
  
   <!-- Device stuff -->
-  <project path="device/xiaomi/olives" name="device_xiaomi_olives.git" remote="dty" revision="xdroid-13" />
+  <project path="device/xiaomi/olives" name="device_xiaomi_olives.git" remote="dty" revision="xdroid" />
   <project path="device/xiaomi/olives-common" name="device_xiaomi_olives-common.git" remote="dty" revision="12" /> 
   <project path="kernel/xiaomi/olives" name="kernel_xiaomi_olives.git" remote="dty" revision="a12/main" />
   <project path="vendor/xiaomi/olives" name="vendor_xiaomi_olives.git" remote="dty" revision="12" />
@@ -23,10 +23,11 @@
   <project path="frameworks/native" name="xd_frameworks_native" remote="dty" revision="thirteen" />
   <project path="frameworks/av" name="xd_frameworks_av" remote="xd" revision="thirteen" />
   <project path="frameworks/base" name="xd_frameworks_base" remote="xd" revision="thirteen" />
-  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-msm8996" remote="los" />
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-msm8996" remote="dty" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="dty" revision="arrow-12.1" />
   <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="dty" revision="arrow-12.1" /> 
 
-  
+  <!-- Extras -->
+  <project path="vendor/miuicamera" name="vendor_miuicamera" remote="me" revision="12.1" />
  
 </manifest>
