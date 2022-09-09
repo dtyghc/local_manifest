@@ -7,7 +7,7 @@
   <remote name="aw"   fetch="https://github.com/ArrowOS" />
   <remote name="me"   fetch="https://github.com/karann2354" />
   <remote name="abhi" fetch="https://github.com/dextyy5" />
-  <remote name="dd" fetch="https://github.com/dextyy5" />
+  <remote name="dd" fetch="https://github.com/BusyDragon-1237" />
  
   <remove-project name="xd_official-maintainer" />
   <remove-project name="xd_frameworks_native" />
