@@ -18,6 +18,8 @@
   <remove-project name="android_vendor_qcom_opensource_display-commonsys" />
   <remove-project name="xd_device_qcom_sepolicy-legacy-um" />
   <remove-project name="xd_vendor_xdroid" />
+  <remove-project name="xd_system_core" />
+	
  
    <!-- Device stuff -->
   <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439.git" remote="dty" revision="xdroid" />
@@ -34,7 +36,8 @@
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-msm8996" remote="dty" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="dty" revision="arrow-12.1" />
   <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="dty" revision="arrow-12.1" /> 
-
+  <project path="system/core" name="xd_system_core" remote="dd" revision="twelve-android-12.1.0_r24" />
+	
 <!-- Extras -->
 
 	<project path="vendor/miuicamera" name="vendor_miuicamera" remote="me" revision="12.1" />
