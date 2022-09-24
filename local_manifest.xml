@@ -19,7 +19,7 @@
   <project path="vendor/xiaomi/Mi439" name="vendor_xiaomi_Mi439.git" remote="me" revision="k4.19"  /> 
   <project path="vendor/xiaomi/mithorium-common" name="vendor_xiaomi_mithorium-common.git" remote="me" revision="k4.19" />
     
-  <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
+  <!-- remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="dty" revision="arrow-13" />
   <remove-project name="android_vendor_qcom_opensource_display" />
   <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display-1" remote="dty" revision="lineage-20.0" />
