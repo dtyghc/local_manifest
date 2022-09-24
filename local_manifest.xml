@@ -8,6 +8,9 @@
   <remote name="me"   fetch="https://github.com/karann2354" />
   <remote name="abhi" fetch="https://github.com/dextyy5" />
   <remote name="dd" fetch="https://github.com/dextyy5" />
+  <remote name="stuff"fetch="https://github.com/mi-thorium" />
+  <remote name="evox439" fetch="https://github.com/evolution-mi439" />   
+  <remote name="kernel"fetch="https://github.com/mi-sdm439" />	
 	
   <!-- Device stuff -->
   <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439.git" remote="dty" revision="evox" />
@@ -20,24 +23,23 @@
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="dty" revision="arrow-13" />
   <remove-project name="android_vendor_qcom_opensource_display" />
   <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display-1" remote="dty" revision="lineage-20.0" />
-  <remove-project name="device_qcom_sepolicy-legacy-um" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="dty" revision="tiramisu" />
   <!-- HALs -->
 
-  <remove-project name="android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="system_core" />
   <remove-project name="vendor_evolution" />
-  
+  <remove-project name="ArrowOS/android_hardware_qcom_wlan"/>
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="kernel" revision="lineage-20.0-caf"/>
+  <remove-project name="LineageOS/android_hardware_qcom_audio" />
+  <project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom_audio" remote="stuff" revision="lineage-19.1-caf-msm8953" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" />
+  <project path="hardware/qcom-caf/msm8953/display" name="android_hardware_qcom_display" remote="hals" revision="lineage-19.1-caf-msm8953" />
   <project path="system/core" name="system_core" revision="tiramisu" remote="dty" />
   <project path="vendor/evolution" name="vendor_evolution" revision="tiramisu" remote="dty" />
-  <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" revision="lineage-19.0-caf-msm8916" remote="los" />
-  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-19.0-caf-msm8996" remote="los" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="aw" revision="arrow-13.0-caf-msm8998" />
-  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sdm845" remote="los" />
-  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sm8150" remote="los" />
-  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sm8250" remote="los" />
-
+  <remove-project name="android_vendor_qcom_opensource_fm-commonsys" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="evox439" revision="lineage-19.1" />
+  <remove-project name="device_qcom_sepolicy-legacy-um" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="evox439" revision="tiramisu" />
 	
 <!-- Extras -->
 
