@@ -20,7 +20,6 @@
   <project path="vendor/xiaomi/mithorium-common" name="vendor_xiaomi_mithorium-common.git" remote="dty" revision="thirteen" />
     
   <!-- HALs -->
-  <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="system_core" />
   <remove-project name="vendor_evolution" />
   <remove-project name="ArrowOS/android_hardware_qcom_wlan"/>
